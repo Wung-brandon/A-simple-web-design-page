@@ -1,0 +1,29 @@
+.black{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    height: 120px;
+    font-size: 30px;
+}
+body{
+    padding: 20px;
+}
+.start{
+    font-size: 75px;
+    align-items: center;
+}
+.side{
+    width: 200px;
+    font-size: 15px;
+    background-color: gainsboro;
+    height: 500px;
+}
+.side, .near{
+    display: inline-block;
+}
+span{
+    color: red;
+}
